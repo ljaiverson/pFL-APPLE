@@ -42,7 +42,7 @@ For instance, if we want to train APPLE for 200 rounds on CIFAR10 under the [pra
 
 ```bash
 python train_APPLE.py --num_rounds 200 \
-                      --dataset 'cifar10' \
+                      --data 'cifar10' \
                       --distribution 'non-iid-practical' \
                       --lr_net 0.01 \
                       --lr_coef 0.001
